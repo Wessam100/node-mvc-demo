@@ -11,4 +11,9 @@ html
     form(action="/add" method="POST")
       input(type="text" name="name" placeholder="Enter item" required)
       button(type="submit") Add Item
+    
+    form(action="/remove" method="POST")
+      input(type="text" name="name" placeholder="Enter item to remove" required)
+      button(type="submit") Remove Item
+
     script(src="/script.js")
